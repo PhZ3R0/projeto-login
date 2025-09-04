@@ -1,0 +1,14 @@
+@media screen and (min-width:768px) {
+    #login-box {
+        width: 90vw;
+        height: 280px;
+    }
+    #half-up {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    div#half-down {
+        float: right;
+    }
+}
