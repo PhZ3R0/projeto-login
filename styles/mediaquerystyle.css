@@ -1,6 +1,6 @@
 @media screen and (min-width:768px) {
     #login-box {
-        width: 90vw;
+        width: 80vw;
         
     }
     #half-up {
@@ -13,14 +13,31 @@
         float: right;
         width: 65%;
     }
-    h1, p {
-        margin-bottom: 20px;
-        margin-top: 100px;
+    h1  {
+        margin-top: 80px;
+        
     }
     p {
+        margin-top: 100px;
         margin-bottom: 50px;
+        font-size: 1.3em;
     }
     #input-box > #email, #password {
         width: 90%;
     }
+}
+
+@media screen and (min-width:992px) {
+    #login-box {
+        width: 90vw;
+    }
+    div#half-up {
+        width: 50%;
+        float: right;
+    }
+    div#half-down {
+        width: 50%;
+        float: left;
+    }
+
 }
