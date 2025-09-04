@@ -23,7 +23,7 @@ main {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
+    
 
     overflow: hidden;
     border-radius: 20px;
@@ -31,6 +31,7 @@ main {
 
     transition: width .3s, height .3s;
     transition-timing-function: ease;
+    transform: translate(-50%,-50%);
 
 }
 #half-up {
@@ -65,31 +66,34 @@ form {
 }
 #input-box {
     background-color: #5f2c82;
-    display: inline-block;
+    display: block;
     width: 100%;
     border-radius: 10px;
     overflow: hidden;
     height: 50px;
+    margin: 5px 0;
+}
+#input-box > input:focus-within {
+    background-color: white;
 }
 #input-box > label > span {
-    font-size: 1.7em;
-    width: 30px;
+    font-size: 2em;
+    width: 40px;
     padding: 5px;
     transform: translateY(3px);
     color: white;
 }
 #email,#password {
-    height: 45px;
-    width: 290px;
+    height: 90%;
+    width: calc(100% - 50px);
     padding: 4px;
-    transform: translateY(-1px);
     font-size: 0.9em;
     border-radius: 10px;
     border: none;
+    background-color: #94cfcd;
+    transform: translateY(-6px);
 }
 #login-button {
-    
-    
     width: 100%;
     height: 50px;
     border: none;
