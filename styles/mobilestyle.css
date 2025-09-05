@@ -75,6 +75,7 @@ form {
     overflow: hidden;
     height: 50px;
     margin: 5px 0;
+    justify-content: center;
 }
 #input-box > input:focus-within {
     background-color: white;
@@ -87,7 +88,7 @@ form {
     color: white;
 }
 #input-box > input {
-    justify-content: center;
+    
     
     width: 100% ;
     padding: 4px;
